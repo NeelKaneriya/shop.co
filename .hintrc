@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "on",
+    
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "on"
+        
+      }
+    ]
+  }
+}
+{
+  "connector": {...},
+  "formatters": [...],
+  "hints": {
+      "no-inline-styles": [ "warning", {
+          "requireNoStyleElement": true
+      }],
+      ...
+  },
+  ...
+}
